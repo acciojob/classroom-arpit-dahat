@@ -20,11 +20,11 @@ public class StudentRepository {
         this.teacherStudentMapping = new HashMap<String, List<String>>();
     }
 
-    public void saveStudent(students){
+    public void saveStudent(Student student){
         studentMap.put(student.getName(), student);
     }
 
-    public void saveTeacher(teacher){
+    public void saveTeacher(Teacher teacher){
         teacherMap.put(teacher.getName(), teacher);
     }
 
